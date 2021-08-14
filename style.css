@@ -1,0 +1,356 @@
+
+ *{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+ }
+ @font-face {
+     font-family: chomsky;
+     src:url('chomsky/dist/Chomsky.otf'),
+        url('chomsky/dist/Chomsky.woff');
+ }
+ @font-face {
+     font-family: Nunito;
+     src:url('Nunito/Nunito-Regular.ttf');
+ }
+ @font-face {
+     font-family: Garamond;
+     src:url('EB_Garamond/EBGaramond-VariableFont_wght.ttf'),
+     url('EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf');
+ }
+
+html,
+body {
+  font-family: Garamond ,serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+h1{
+    font-size: 3.75rem;
+}
+h2{
+    font-size: 1.875rem;
+    color:#b2560d;
+    font-family: Nunito;
+}
+
+h3{
+    font-size: 1.125rem;
+    color: #444444;
+}
+.network {
+    color: purple;
+    
+}
+.network:hover{
+    background-color:beige;
+    font-weight: 700;
+}
+
+.quote-text{ 
+    min-height: 200px;
+    min-width: 200px;
+    font-family: Garamond, serif;
+    color: #444444;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.donation {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.fig {
+    color:#0d0907;
+    font-size: 12px;
+}
+
+
+#trade {
+    font-family: chomsky;
+    font-size: 5rem;
+    color: seashell;
+    line-height: 80px;
+    float: left;
+}
+nav {
+    background-color: #ed7f20;
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    position: fixed;
+}
+nav ul {
+    text-align: center;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 20px;
+}
+nav ul li a {
+    color:white;
+    font-size: 1rem;
+    line-height: 70px;
+    border-radius: 4px;
+}
+
+#toggle {
+    display: none ;
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 40px;
+    width: 26px;
+    float:right;
+    color:blanchedalmond;
+    display: none;
+}
+a.active, a:hover {
+background:brown;
+transition: 0.5s;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.banner-container {
+    height: 700px;
+    max-width: 1200px;
+    background-image:url("lcov1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display:flex;
+}
+
+.banner-text{
+    width: 100%;
+    margin: auto;
+    
+}
+.b{
+    font-size: 6.25rem;
+    text-align: center;
+    color: seashell;
+    font-family: chomsky;
+}
+.b2 {
+    font-size: 2.25rem;
+    text-align: center;
+    color:seashell;
+    font-family: Nunito;
+}
+.gallery-container{
+    height: calc(100vh-20px);
+    width: calc(100vh-20px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+
+
+.initial-container{
+    background-image: url("https://warriorshavewounds.github.io/wise/ban.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+    
+}
+.init1, .des {
+color: seashell;
+}
+.init1{
+    margin-left:5%;
+}
+.init2 {
+    margin-left:5%;
+}
+.init3 {
+    text-align: center;
+    margin-top: 5%;
+}
+.p1{
+    text-align: center;
+}
+.Quotes{
+    width: 85%;
+    margin:auto;
+    background-color: #fff;
+
+}
+.quote-text{
+    text-align: center;
+    align-items: center;
+}
+.quotes-head {
+    text-align: center;
+}
+
+.brown{
+    color:#917513;
+    text-align: center;  
+}
+
+#whw, #ghana, #international, #research, #news {
+
+    width: 86%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.post {
+    width: 60%;
+    margin-bottom:7.5%;
+    margin-top: 12.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Garamond, serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+    color: #444444;
+  }
+
+.Home, .Abc, .Freebies{
+    text-align: center;
+    color:#b2560d;
+}
+
+.story{
+    color: #b2560d;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #5e2c04;
+    color:seashell;
+    font-family: Garamond, serif;
+    padding-bottom: 2%;
+
+}
+.social{
+text-align: center;
+    color:seashell;
+    margin-top: 2%;
+    font-family: Nunito;
+}
+}
+.foto{
+    display:flex;
+  margin-top:2%;
+  margin-right:3%;  
+}
+.fot{ 
+    margin-left:2%;
+}
+.footie1,.whw {
+    font-family: chomsky;
+    padding-top: 5%;
+}
+   @media only screen and (max-width: 700px) {
+     .Quotes1.{
+       border: none;
+     }
+     
+     .b{
+         font-size:3.75rem;
+     }
+     .navbar a{
+         display:none;
+     }
+     .b{
+        font-size:3.50rem;
+        color:seashell;
+    }
+    p{
+        font-size:16px;
+   }
+
+}
+   @media only screen and (max-width: 470px) {
+      h1 { font-size: 2rem}
+     .donation, .init2 {
+     display: block;
+     width: 100%;
+     margin: 0;
+   }
+   .post {
+       width: 75%;
+   }
+   a.active, a:hover {
+    display: none;
+    }
+    nav ul li .ago {
+        padding-top: 10%;
+        display: none;
+    
+    }
+   .b{
+       font-size:3.50rem;
+       color: blanchedalmond;
+   }
+   .b2 {
+       color: blanchedalmond;
+   }
+   p{
+       font-size:16px;
+   }
+   .foto{
+       display:none;
+   }
+   .fot{
+       display:none;
+   }
+   .social {
+       font-family: Nunito;
+       margin-left: 8%;
+   }
+    .nit2 {
+        text-align: center;
+    }
+ .init2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    padding-top: 5%;
+      
+}
+.menu li {
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+.menu li a {
+    display: block;
+    border-bottom: 1px solid #ed7f20;
+    margin: 0;
+    color: seashell;
+    line-height: 45px;
+    padding-top: 20px;
+}
+#toggle:checked + .menu li {
+    display: block;
+}
+   }

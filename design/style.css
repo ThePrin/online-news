@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    background-color: beige;
+}
+@font-face {
+    font-family: chomsky;
+    src:url('../chomsky/dist/Chomsky.otf'),
+       url('../chomsky/dist/Chomsky.woff');
+}
+@font-face {
+    font-family: Nunito;
+    src:url('../Nunito/Nunito-Regular.ttf');
+}
+@font-face {
+    font-family: Garamond;
+    src:url('../EB_Garamond/EBGaramond-VariableFont_wght.ttf'),
+    url('../EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf');
+}
+h2,.title {
+    font-family: Nunito;
+}
+.colors {
+
+    text-align: center;
+    
+}
+.color-item1 {
+    background-color: #ed7f20;
+    width: 300px;
+    height: 100px;
+    
+}
+.color-item2 {
+    background-color: seashell;
+    width: 300px;
+    height: 100px;
+    border:1px solid cornflowerblue;
+    
+}
+.color-item3 {
+    background-color: #b2560d;
+    width: 300px;
+    height: 100px;
+    
+}
+.color-item4 {
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 100px;
+    border:1px solid cornflowerblue;
+    
+}
+.color-item5 {
+    background-color: #5e2c04;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.nunito {
+    font-family: Nunito;
+    font-size: 1.5rem;
+}
+.garamond {
+ font-family: Garamond;
+ font-size: 1.5rem;
+}
+.chomsky {
+ font-family: chomsky;
+ font-size: 1.5rem;
+}
+.main {
+font-size: 3.75rem;
+font-family: chomsky;
+}
+.main ul li {
+    list-style:none;
+}
+.sub {
+font-size: 1.875rem;
+font-family: Nunito;
+}
+.sub ul li {
+    list-style: none;
+}
+.para {
+font-size: 1.2rem;
+font-family: Garamond;
+
+}
+.para ul li {
+    list-style: none;
+}
+.text {
+    border: 1px solid gray;
+    text-align: center;
+
+}
+.color {
+    border: 1px solid gray;
+    text-align: center;
+}
+.font {
+    border: 1px solid gray;
+    text-align: center;
+}
+.head {
+    text-align: center;
+}
+
+.breadcrumb > li {
+    display: inline;
+}
+.breadcrumb li+li::before {
+    padding: 10px;
+    content: ">";
+}
+.breadcrumb a {
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    color:blueviolet;
+}
+.polish {
+    color: #2d5dcc;
+    font-weight: 700;
+}
+@media only screen and (max-width: 470px) {
+    .main {
+        font-size: 2.75rem;
+    }
+}
