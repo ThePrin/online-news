@@ -65,6 +65,13 @@ h3{
     height: auto;
     display: block;
 }
+.cag-container {
+    text-align: center;
+}
+.cag-logo {
+    max-width: 100%;
+    height: auto;
+}
 .fig {
     color:#0d0907;
     font-size: 12px;
