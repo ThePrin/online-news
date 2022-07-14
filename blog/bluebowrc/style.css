@@ -7,7 +7,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #b2560d;
+	background-color: #5552fc;
 	display: table;
 	width: 100%;
 }
@@ -25,7 +25,7 @@ li a {
 }
 
 li a:hover {
-	background-color: #5e2c04;
+	background-color: #4d4afb;
 }
 h1{
 	color: #333;
@@ -95,7 +95,7 @@ footer {
 	position: relative;
 	width: 100%;
 	bottom: -100px;
-	background-color: #b2560d;
+	background-color: #5552fc;
 }
 
 footer p {
